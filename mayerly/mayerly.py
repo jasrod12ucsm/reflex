@@ -9,8 +9,7 @@ def index() -> rx.Component:
     return rx.vstack(
         navbar(),
         rx.flex(
-            rx.box(main_table(), width=["100%", "100%", "100%", "60%"]),
-            email_gen_ui(),
+            rx.box(main_table(), width=["100%", "100%", "100%", "100%"]),
             spacing="6",
             width="100%",
             flex_direction=["column", "column", "column", "row"],
